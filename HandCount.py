@@ -1,7 +1,7 @@
 from re import search
 
-# tens digit --> card number
-# ones digit --> card suit // CHaSeD order --> 1 - Clubs, 2 - Hearts, 3 - Spades, 4 - Diamonds
+# number --> card value
+# letter --> card suit // c - Clubs, h - Hearts, s - Spades, d - Diamonds
 deck = [
     'c1', 'h1', 's1', 'd1',
     'c2', 'h2', 's2', 'd2',
